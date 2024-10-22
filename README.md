@@ -1,14 +1,14 @@
 # Fire Extinguisher System with Arduino
 
-This project demonstrates a fire extinguisher system using an Arduino Uno. The system detects smoke and flame using sensors and responds by activating a fan to exhaust smoke and a water pump to extinguish fire. A buzzer is also triggered as an alert. The system is controlled through an L298N motor driver module, allowing simultaneous control of the fan and water pump.
+This project demonstrates a fire extinguisher system using an [Arduino Uno](https://www.arduino.cc/en/Main/ArduinoBoardUno). The system detects smoke and flame using sensors and responds by activating a fan to exhaust smoke and a water pump to extinguish fire. A buzzer is also triggered as an alert. The system is controlled through an [L298N motor driver module](https://www.electronicwings.com/nodemcu/l298n-dual-h-bridge-motor-driver-module) allowing simultaneous control of the fan and water pump.
 
 ## Components Used
 
 - Arduino Uno
-- L298N Motor Driver Module
+- [L298N Motor Driver Module](https://www.electronicwings.com/nodemcu/l298n-dual-h-bridge-motor-driver-module)
 - 12V Power Supply
-- Flame Sensor
-- Smoke Sensor (MQ-2)
+- [Flame Sensor](https://www.sparkfun.com/products/14015)
+- [Smoke Sensor (MQ-2)](https://www.electronicwings.com/sensors/mq-2-gas-sensor-module)
 - DC Motor Fan (Exhaust Fan)
 - Water Pump
 - Buzzer
@@ -17,7 +17,9 @@ This project demonstrates a fire extinguisher system using an Arduino Uno. The s
 
 ## Circuit Diagram
 
-![Circuit Diagram](Automatic-Fire-Extinguisher-IOT-project/1_Circuit Diagram.jpg)
+The following is the circuit diagram for the Fire Extinguisher System:
+
+![Circuit Diagram](1_Circuit%20Diagram.jpg)
 
 ## Project Description
 
@@ -58,10 +60,6 @@ In the `loop()`, the system continuously monitors the smoke and flame sensors. D
 3. **Power Supply**: Connect the 12V power supply to the motor driver and the Arduino.
 4. **Testing**: Test the system by simulating smoke and flame using a lighter or similar tool.
 
-## Circuit Design
-
-The system is designed to maintain a clean and well-organized layout. The power supply, motor driver, sensors, and actuators are all connected to the Arduino in an easy-to-follow manner. Ensure that the wiring is secure to avoid loose connections.
-
 ## Troubleshooting
 
 - **Fan or Pump Not Working**: Ensure the motor driver is correctly powered and the components are properly connected.
@@ -70,10 +68,9 @@ The system is designed to maintain a clean and well-organized layout. The power 
 ## Future Improvements
 
 - Add a more advanced sensor to detect the intensity of the flame.
-- Integrate a GSM module for remote alerts via SMS in case of fire.
+- Integrate a [GSM module](https://www.electronicwings.com/nodemcu/gsm-sim800l-module) for remote alerts via SMS in case of fire.
 - Develop a web interface to monitor and control the system remotely.
 
 ## License
 
-This project is licensed under the MIT License. Feel free to modify and use it for your own projects.
-
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and use it for your own projects.
