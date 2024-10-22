@@ -17,7 +17,7 @@ This project demonstrates a fire extinguisher system using an Arduino Uno. The s
 
 ## Circuit Diagram
 
-![Circuit Diagram](./1_Circuit Diagram.jpg)
+![Circuit Diagram](Automatic-Fire-Extinguisher-IOT-project/1_Circuit Diagram.jpg)
 
 ## Project Description
 
