@@ -19,6 +19,10 @@ This project demonstrates an innovative **Fire Extinguisher System** utilizing a
 
 ![Circuit Diagram](1_Circuit%20Diagram.jpg)
 
+## 🧿 Block Diagram
+
+![Block Diagram](1_Block%20Diagram.png)
+
 ## 🚀 Project Description
 
 The system operates as follows:
